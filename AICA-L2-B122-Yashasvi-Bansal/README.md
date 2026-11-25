@@ -2,7 +2,7 @@
 
 **Capstone Project – AICA Level 2 (ICAI)**
 **Submitted by:** CA Yashasvi Bansal, Yash Associates – AICA-L2-B122
-**Live demo:** https://clause44-3cd-helper.lovable.app
+**Demo:** shown in the video below (the live app is private to the firm)
 **Video:** _link to be added_
 
 ---
@@ -65,14 +65,11 @@ The finished app **does not need AI to run**: the rules are fixed and explainabl
 | `source/docs/database/` | Database changes (SQL) |
 | `sample-data/` | Fictional sample files to try the app |
 
-## 6. How to try it
+## 6. How to see it working
 
-1. Open https://clause44-3cd-helper.lovable.app, create an account and a firm.
-2. Add a client and an assessment year.
-3. Press **Bring data (all clauses)** and choose `sample-data/sample_tally_daybook_loans.xml` – or install the Tally Connector (Settings → Tally Connector) and bring the data straight from TallyPrime.
-4. Follow the steps for Clause 44 and Clause 31 and open the reports.
+The video shows the full flow on a fictional company: bringing data from Tally, Clause 44, the GST portal check, Clause 31, the client link and Google Drive.
 
-To run the code yourself: `cd source`, `npm install`, `npm run dev` (needs a Supabase project; set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` in `.env`).
+To run the code yourself: `cd source`, `npm install`, `npm run dev` (needs your own Supabase project; set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` in `.env`), then open the app, create a firm, add a client and an assessment year, press **Bring data (all clauses)** and choose `sample-data/sample_tally_daybook_loans.xml`.
 
 ## 7. Data and privacy
 
